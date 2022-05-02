@@ -8,7 +8,7 @@ const routes = [
   {
     path: "/",
     name: R_HOME,
-    redirectTo: { name: R_CALCULATOR },
+    redirect: { name: R_CALCULATOR },
   },
   {
     path: "/calculator",
